@@ -1,0 +1,46 @@
+.div{
+border-style: solid;
+height:300px;
+width:307px;
+background-color:rgb(215, 209, 209);
+border-style: none;
+border-color: rgb(215, 209, 209);
+border-radius: 2px;
+margin-top:200px;
+margin-left:550px;
+}
+.inner-div{
+    margin-top: 10px;
+}
+
+#input1{
+    height:60px;
+    width:300px;
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-style:solid;
+    border-color:powderblue;
+    border-radius: 2px;
+}
+.num{
+    height:30px;
+    width:60px;
+    border-radius:5px;
+    border-color: whitesmoke;
+    margin-left:30px;
+}
+
+.num:hover{
+    cursor: pointer;
+}
+#clr{
+    width:100px;
+    margin-top:8px;
+    height:35px;
+    border-style: none;
+    border-radius: 5px;
+    margin-left:110px;
+}
+#clr:hover{
+    cursor: pointer;
+}

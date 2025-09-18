@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+     <div class="div">
+    <form>
+        <input type="text" id="input1">
+
+    <div class="inner-div">
+
+    <input  type="button" class="num" value="7" onclick="input1.value+='7' ">
+    <input  type="button" class="num" value="8" onclick="input1.value+='8' ">
+    <input  type="button" class="num" value="9" onclick="input1.value+='9' ">
+    <input  type="button" class="num" value="4" onclick="input1.value+='4' ">
+    <input  type="button" class="num" value="5" onclick="input1.value+='5' ">
+    <input  type="button" class="num" value="6" onclick="input1.value+='6' ">
+    <input  type="button" class="num" value="1" onclick="input1.value+='1' ">
+    <input  type="button" class="num" value="2" onclick="input1.value+='2' ">
+    <input  type="button" class="num" value="3" onclick="input1.value+='3' ">
+    <input  type="button" class="num" value="/" onclick="input1.value+='/' ">
+    <input  type="button" class="num" value="*" onclick="input1.value+='*' ">
+    <input  type="button" class="num" value="+" onclick="input1.value+='+' ">
+    <input  type="button" class="num" value="-" onclick="input1.value+='-' ">
+    <input  type="button" class="num" value="0" onclick="input1.value+='0' ">
+    <input type="button" class="num" value="=" onclick="input1.value=eval(input1.value)">
+    <input type="button" value="clear" onclick="input1.value='' " id="clr">
+</div>
+</form>
+</div>
+</body>
+</html>
